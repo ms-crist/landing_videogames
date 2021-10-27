@@ -1,0 +1,2048 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#agrupar,
+header,
+nav,
+section,
+article,
+aside,
+footer {
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#agrupar {
+  min-width: 320px;
+  width: 100%;
+}
+
+#contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+#menu {
+  background-color: dodgerblue;
+  width: 98%;
+  height: 90px;
+  border-radius: 20px;
+  box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+  margin-bottom: 0.5%;
+  margin-top: 0.5em;
+  margin-left: 1%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.items-menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#video {
+  width: 98%;
+  background-color: darkgray;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+#titulo {
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-size: 40px;
+  padding: 0.6%;
+}
+
+.medidas {
+  width: 60%;
+  height: 38%;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  border-color: black;
+  border-width: 10%;
+  border-style: solid;
+}
+
+#menu li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: "Press Start 2P", cursive;
+  font-size: 17px;
+  color: ghostwhite;
+  padding: 0.5em;
+  margin-top: 25px;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+#contenedor {
+  background-image: url("../img/pc2.png");
+  background-size: 59%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contenedor-modulo {
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-left: 10%;
+  padding: 1em;
+  border: black;
+  border-width: 20%;
+}
+
+#soy {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 16px;
+  margin-right: 40%;
+  color: black;
+}
+
+#conoce {
+  width: 270px;
+  height: 48px;
+  background-color: rgb(150, 150, 150);
+  border-radius: 5px;
+  color: white;
+  font-family: "Squada One", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#texto {
+  margin-right: 25%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+img {
+  width: 30%;
+  margin-left: 90%;
+  margin-right: 5%;
+  margin-top: 7%;
+}
+
+#contenedor-formulario {
+  background-image: url("../img/hoja4.png");
+  background-size: cover;
+  padding-top: 6%;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+#contacto {
+  margin-top: 5%;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Acme", sans-serif;
+  color: purple;
+}
+
+#miFormulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+}
+
+input {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1em;
+  margin-top: 1%;
+  padding: 1em;
+  border-radius: 20px;
+  border-color: purple;
+}
+
+h3 {
+  font-size: 1em;
+  margin-bottom: 2%;
+  color: gray;
+}
+
+#boton {
+  text-align: center;
+  width: 35%;
+  background-color: purple;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 33%;
+}
+
+#pie {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: dodgerblue;
+  width: 100%;
+  /* margin-left: 1%; */
+  height: 80px;
+  border-radius: 20px;
+  box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  color: ghostwhite;
+}
+
+@media screen and (max-device-width: 1240px) {
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-device-width: 1140px) {
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-device-width: 1070px) {
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+  img {
+    width: 30%;
+    margin-left: 80%;
+    margin-top: 25%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 14px;
+    margin-right: 35%;
+    color: black;
+  }
+
+  h3 {
+    font-size: 0.8em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  #conoce {
+    width: 270px;
+    height: 48px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.6em;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: purple;
+  }
+
+  #contacto {
+    margin-top: 5%;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+    color: purple;
+  }
+}
+
+@media screen and (max-device-width: 970px) {
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 76%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 12%;
+    margin-left: 35%;
+    margin-top: -5%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 12px;
+    margin-right: 30%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  h3 {
+    font-size: 0.8em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.6em;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: purple;
+  }
+
+  #contacto {
+    margin-top: 5%;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+    color: purple;
+  }
+}
+
+@media screen and (min-device-width: 350px) and (max-device-width: 970px) {
+  #agrupar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 1px;
+    background-color: lightcyan;
+  }
+
+  .items-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 8em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 13px;
+    color: ghostwhite;
+    padding: 8px;
+    margin-top: 25px;
+    margin-right: 100px;
+  }
+
+  #contenedor-modulo {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contenedor-formulario {
+    background-image: url("../img/hoja4.png");
+    background-size: cover;
+    padding-top: 10%;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.8em;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  #contacto {
+    margin-top: 1%;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  #miFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  #boton {
+    width: 30%;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 35%;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 18px;
+    color: ghostwhite;
+    padding: 1%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-device-width: 900px) {
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 35%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 11px;
+    margin-right: 30%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-device-width: 870px) {
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 35%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 11px;
+    margin-right: 30%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 82%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-device-width: 813px) {
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 35%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 11px;
+    margin-right: 30%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-device-width: 780px) {
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 12px;
+    color: ghostwhite;
+    padding: 7px;
+    margin-top: 25px;
+    margin-right: 90px;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 92%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 35%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 11px;
+    margin-right: 30%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  #boton {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-device-width: 700px) {
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1.3em;
+    color: ghostwhite;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 70px;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 35%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 11px;
+    margin-right: 30%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.6em;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  h3 {
+    font-size: 0.7em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 98%;
+    /* margin-left: 1%; */
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 14px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 650px) {
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1.3em;
+    color: ghostwhite;
+    padding: 9px;
+    margin-top: 25px;
+    margin-right: 90px;
+    font-size: 10px;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+
+  img {
+    width: 13%;
+    margin-left: 37%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 10px;
+    margin-right: 10%;
+    color: black;
+    margin-left: 20%;
+  }
+
+  #conoce {
+    width: 220px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 27%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.6em;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  h3 {
+    font-size: 0.7em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 98%;
+    /* margin-left: 1%; */
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 14px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+  #agrupar {
+    width: 126%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: antiquewhite;
+  }
+
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1.3em;
+    color: ghostwhite;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 70px;
+  }
+
+  .items-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 8em;
+  }
+
+  #contenedor-modulo {
+    margin-top: 5%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+
+  img {
+    width: 12%;
+    margin-left: 46%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 12px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 40%;
+  }
+
+  #conoce {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 37%;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  #miFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 2px;
+    margin-bottom: 1%;
+  }
+
+  #boton {
+    width: 30%;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 35%;
+  }
+
+  #pie {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 95%;
+    /* margin-left: 1%; */
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 18px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 535px) {
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1em;
+    color: ghostwhite;
+    padding: 11px;
+    margin-top: 25px;
+    margin-right: 80px;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 46%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 11px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 40%;
+  }
+
+  #conoce {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-device-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #agrupar {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    /* margin: 20px;
+    margin-bottom: 1px;
+    background-color: lightcyan; */
+  }
+
+  #contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: antiquewhite;
+  }
+
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  .items-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 8em;
+  }
+
+  #video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1em;
+    color: ghostwhite;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 48px;
+  }
+
+  #contenedor-modulo {
+    margin-top: 5%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 46%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 9.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 40%;
+  }
+
+  #conoce {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 40%;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  #miFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 2px;
+    margin-bottom: 1%;
+  }
+
+  #boton {
+    width: 30%;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 35%;
+  }
+
+  #pie {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 12px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 465px) {
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1em;
+    color: ghostwhite;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: -5%;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 8.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 35%;
+  }
+
+  #conoce {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  #miFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 2px;
+    margin-bottom: 1%;
+  }
+
+  #boton {
+    width: 30%;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 35%;
+  }
+
+  #pie {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 12px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 430px) {
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #contenedor {
+    background-image: url("../img/pc2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 8.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 35%;
+  }
+
+  #conoce {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-device-width: 400px) {
+  #agrupar {
+    min-width: 320px;
+    width: 120%;
+  }
+
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.8em;
+    color: ghostwhite;
+    padding: 1px;
+    margin-top: 25px;
+    margin-right: 40px;
+  }
+
+  #titulo {
+    font-size: 30px;
+  }
+
+  #video {
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 1%;
+  }
+
+  .medidas {
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  #contenedor-modulo {
+    margin-top: -20%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 15%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 8.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 35%;
+  }
+
+  #conoce {
+    width: 180px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 7px;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 90%;
+    /* margin-left: 1%; */
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 365px) {
+  #agrupar {
+    min-width: 320px;
+    width: 120%;
+  }
+
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.8em;
+    color: ghostwhite;
+    padding: 1px;
+    margin-top: 25px;
+    margin-right: 40px;
+  }
+
+  #video {
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 1%;
+  }
+
+  .medidas {
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  #contenedor-modulo {
+    margin-top: 1%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: -10%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 7.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 35%;
+  }
+
+  #conoce {
+    width: 180px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+  }
+
+  h3 {
+    font-size: 0.5em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  #conoce {
+    width: 170px;
+    height: 26px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 7px;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 355px) {
+  #agrupar {
+    min-width: 320px;
+    width: 120%;
+  }
+
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.8em;
+    color: ghostwhite;
+    padding: 1px;
+    margin-top: 25px;
+    margin-right: 40px;
+  }
+
+  #video {
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 1%;
+  }
+
+  .medidas {
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  #contenedor-modulo {
+    margin-top: -20%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+
+  img {
+    width: 8%;
+    margin-left: 45%;
+    margin-top: 12%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 7.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 35%;
+  }
+
+  #conoce {
+    width: 180px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+  }
+
+  h3 {
+    font-size: 0.5em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  #conoce {
+    width: 170px;
+    height: 26px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 7px;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 350px) {
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.8em;
+    color: ghostwhite;
+    padding: 1px;
+    margin-top: 25px;
+    margin-right: 40px;
+  }
+
+  #video {
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 1%;
+  }
+
+  .medidas {
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  #contenedor-modulo {
+    margin-top: -20%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+
+  img {
+    width: 20%;
+    margin-left: 45%;
+    margin-top: 100%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 7.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 30%;
+  }
+
+  #conoce {
+    width: 180px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 30%;
+  }
+
+  #texto {
+    margin-top: 100%;
+    margin-left: -70%;
+  }
+
+  h3 {
+    font-size: 0.5em;
+    margin-bottom: 2%;
+    color: gray;
+  }
+
+  #conoce {
+    width: 170px;
+    height: 26px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 7px;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+    color: ghostwhite;
+  }
+}
+
+@media screen and (max-device-width: 335px) {
+  #agrupar {
+    min-width: 320px;
+    width: 120%;
+  }
+
+  #menu {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5em;
+  }
+
+  #menu li {
+    list-style: none;
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.8em;
+    color: ghostwhite;
+    padding: 1px;
+    margin-top: 25px;
+    margin-right: 40px;
+  }
+
+  #video {
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 1%;
+  }
+
+  .medidas {
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  #contenedor-modulo {
+    margin-top: -20%;
+    margin-left: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+
+  img {
+    width: 20%;
+    margin-left: 35%;
+    margin-top: 110%;
+  }
+
+  h2 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: 7.5px;
+    margin-right: 5%;
+    color: black;
+    margin-left: 25%;
+  }
+
+  #conoce {
+    width: 180px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    color: white;
+    font-family: "Squada One", cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
+  }
+
+  #texto {
+    margin-top: 100%;
+    margin-left: -70%;
+  }
+
+  #contacto {
+    margin-top: 2%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+  }
+
+  input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 7px;
+    margin-top: 1%;
+    padding: 1em;
+    border-radius: 20px;
+    border-color: dodgerblue;
+  }
+
+  footer {
+    background-color: dodgerblue;
+    width: 100%;
+    /* margin-left: 1%; */
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 2px 2px 5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 9px;
+    color: ghostwhite;
+  }
+}

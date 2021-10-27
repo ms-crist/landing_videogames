@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fascinate+Inline&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/validacion.js"></script>
+    <title>Página de Matías</title>
+</head>
+
+
+<body>
+    <div id="agrupar">
+        <div id="contenedor-principal">
+            <header id="cabecera">
+
+                <nav id="menu">
+                    <ul class="items-menu">
+                        <a href="#menu">
+                            <li>Home</li>
+                        </a>
+                        <a href="#contenedor">
+                            <li>Quien soy</li>
+                        </a>
+                        <a href="#contenedor-formulario">
+                            <li>Contacto</li>
+                        </a>
+                    </ul>
+                </nav>
+            </header>
+            <div id="contenedor-video">
+                <div id="video">
+                    <div id="titulo">
+                        Videogames
+                    </div>
+                    <video class="medidas" src="video/videos3.mp4" loop preload="auto" autoplay muted controls;></video>
+                </div>
+            </div>
+            <div id="contenedor">
+                <article id="articulo-acerca">
+                    <div id="contenedor-modulo">
+                        <figure id="imagen">
+                            <img src="img/foto2.jpg" alt="">
+                        </figure>
+                        <div id="soy">
+
+                            <div id="texto">
+                                <h1>Hola soy Matías </h1>
+                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fuga inventore nemo
+                                    ducimus
+                                    labore, nisi assumenda. Eligendi sed minima vel voluptatem eos quisquam sunt tempore
+                                    autem
+                                    esse!
+                                    Commodi, ut dolorum!
+                                </h2> <br>
+                                <br>
+                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fuga inventore nemo
+                                    ducimus
+                                    labore, nisi assumenda.
+                                </h2>
+                                <div id="conoce">¡Conoce más de mí!</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+            <div id="contenedor-formulario">
+                <div id="contacto">¡Contáctame!</div><br>
+                <br>
+                <section id="form">
+                    <form novalidate action="" name="miFormulario" id="miFormulario">
+                        <h3>Nombre</h3><input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre"><br>
+                        <h3>Email</h3><input type="email" id="email" placeholder="Escriba su email"><br>
+                        <h3>Teléfono</h3><input type="tel" id="tel" placeholder="Escriba su teléfono"><br>
+                        <button type="button" id="boton"
+                            onclick="validarCorreo(), ValidaLong(), verificar_telefono()">Enviar</button>
+
+
+                    </form>
+                </section>
+            </div>
+            <footer id="pie">
+                Derechos reservados
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
